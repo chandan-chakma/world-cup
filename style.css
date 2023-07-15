@@ -205,6 +205,7 @@ footer .goal p {
 
     .brazil {
         flex-direction: column;
+        width: 100%;
     }
 
     .title h1 {
@@ -241,8 +242,9 @@ footer .goal p {
     }
 
     .blogs {
-        width: 100%;
+        width: 93%;
         grid-template-columns: repeat(1, 1fr);
+
 
     }
 
@@ -304,6 +306,7 @@ footer .goal p {
 
     .match {
         flex-direction: column;
+
     }
 
     .toggle {
@@ -312,16 +315,17 @@ footer .goal p {
     }
 
     .blogs {
-        width: 100%;
+        width: 93%;
+        grid-template-columns: repeat(1, 1fr);
+
     }
 
-    .blogs {
-        grid-template-columns: repeat(1, 1fr);
-    }
+
 
     footer {
         width: 100%;
         padding: 30px;
+        margin: 0 auto;
     }
 
     footer h1 {
