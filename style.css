@@ -174,8 +174,6 @@ footer h1 {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-
-
 }
 
 footer .goal {
@@ -194,4 +192,148 @@ footer .goal p {
     line-height: normal;
     margin-left: 20px;
 
+}
+
+/* ======================================== */
+
+/* responsive media query */
+/* For small device */
+@media only screen and (max-width:320px) {
+    body {
+        width: 100%;
+    }
+
+    .brazil {
+        flex-direction: column;
+    }
+
+    .title h1 {
+        font-size: 20px;
+        line-height: 25px;
+
+    }
+
+    .title p {
+        font-size: 10px;
+        line-height: 26px;
+    }
+
+    .title button {
+        font-size: 15px;
+        margin-bottom: 20px;
+
+    }
+
+    .player img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    /* ===================== */
+    .match {
+        flex-direction: column;
+    }
+
+    .toggle {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .blogs {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    footer {
+        width: 100%;
+        padding: 30px;
+    }
+
+    footer h1 {
+        font-size: 25px;
+    }
+
+    footer .goal {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    footer .goal p {
+        margin-bottom: 15px;
+    }
+
+
+
+}
+
+@media only screen and (max-width:480px) {
+    body {
+        width: 100%;
+    }
+
+    .brazil {
+        flex-direction: column;
+    }
+
+    .title h1 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .title p {
+
+        font-size: 10px;
+        line-height: 26px;
+    }
+
+    .title button {
+        font-size: 15px;
+        margin-bottom: 20px;
+
+    }
+
+    .player img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    /* ===================================== */
+
+    .match {
+        flex-direction: column;
+    }
+
+    .toggle {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .blogs {
+        width: 100%;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    footer {
+        width: 100%;
+        padding: 30px;
+    }
+
+    footer h1 {
+        font-size: 25px;
+    }
+
+    footer .goal {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    footer .goal p {
+        margin-bottom: 15px;
+    }
 }
