@@ -111,53 +111,52 @@ body {
     grid-gap: 24px;
 }
 
-.blogs .blog {
+.blogs .play {
     border-radius: 10px;
     border: 1px solid #E8E8E8;
     padding-bottom: 21px;
+    margin: auto;
+    padding: 53px 0;
 }
 
-.blogs .blog img {
-    width: 312px;
-    height: 175px;
+.blogs .play .flag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 27px 30px;
+
 }
 
-.blog .blog-details {
-    margin-left: 20px;
+.blogs .play img {
+    width: 93px;
+    height: 56px;
 }
 
-.blog .blog-details button {
+.blogs .play .vs {
+    margin: 0 20px;
+}
+
+.match-details h1 {
     color: #161616;
+    text-align: center;
     font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    padding: 3px 15px;
-    margin: 15px 0;
-
-}
-
-.blog-details p {
-    color: #161616;
-    font-family: Poppins;
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    margin-bottom: 10px;
 }
 
-.blog-details .icon {
-    margin-top: 20px;
+.match-details p {
+    color: #4D4D4D;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.721px;
 
-}
 
-.blog-details .fa {
-    margin-right: 10px;
-}
-
-.blog-details .duration {
-    margin-right: 30px;
 }
 
 /* ======================================= */
